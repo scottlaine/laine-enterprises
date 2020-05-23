@@ -17,7 +17,7 @@ const Generic = (props) => (
                     <header className="major">
                         <h1>Get A Quote</h1>
                     </header>
-                <p>Leave your name, email and a small message about your driveway or what questions you may have about it. <br></br> You can also call or text </p>
+                <p>Leave your name, email and a small message about your driveway or what questions you may have about it. <br></br> You can also call or text. </p>
 
           <Contact />
                 </div>

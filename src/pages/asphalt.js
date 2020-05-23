@@ -19,7 +19,7 @@ const Generic = (props) => (
                     </header>
                     <span className="image main"><img src={pic11} alt="" /></span>
                     <p>We offer a variety of services for your asphalt driveway such as: Asphalt sealing, Patching, Ramps, Oil stain removal, pressure washing, gum removal, and other customized services to meet your needs </p>
-                    <h4>Why Should I Seal My asphalt Driveway?</h4>
+                    <h4>Why Should I Seal My Asphalt Driveway?</h4>
                     
                     <p>As time goes by, that blacktop is exposed to many factors that do their best to dry out and damage blacktop: sun, rain, freeze/thaw cycles, de-icing salts, gas, oil, traffic, etc. All of these elements will gradually break down the asphalt binder or ‘glue’ that holds the aggregate together. With the continuous loss of this ‘glue’, the aggregates in the top layer begins to ravel and will show surface cracks. If these cracks are not properly filled, and the pavement is not sealed in time the water will penetrate the sub-base causing more cracks, ruts, potholes and eventual failure of the blacktop.</p>
                     <p>Just like a high quality paint job, prepping the blacktop is crucial — edging, cleaning and repairing all damage first before applying the protective layer or ‘shield’ of sealer is critical to ensuring a longer lasting and aesthetically pleasing blacktop.</p>
