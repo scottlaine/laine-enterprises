@@ -6,24 +6,22 @@ const Contact = (props) => (
             <section>
                 <form  name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
                     <div className="field half first">
-                        <label htmlFor="name">Name</label>
-                        <input type="text" name="name" id="name" />
+                        <label htmlFor="name" >Name*</label>
+                        <input type="text" name="name" id="name" required/>
                     </div>
                     <div className="field half">
-                        <label htmlFor="email">Email</label>
-                        <input type="text" name="email" id="email" />
+                        <label htmlFor="email">Email or Phone Number*</label>
+                        <input type="text" name="email" id="email" required />
                     </div>
                     <div className="field">
-                        <label htmlFor="message">Message</label>
-                        <textarea name="message" id="message" rows="6"></textarea>
+                        <label htmlFor="message">Message*</label>
+                        <textarea name="message" id="message" rows="6" required></textarea>
                     </div>
                     <div className="field">
                         <input type="file" name="myfile" id="myfile" placeholder="myfile" rows="7"/>
                         <p>You may upload a picture of your driveway for a more precise quote.</p>
                     </div>
-                    <div className="field">
-                       <div data-netlify-recaptcha="true"></div>
-                    </div>
+                   
                     <ul className="actions">
                         <li><input type="submit" value="Send Message" className="special" /></li>
                         <li><input type="reset" value="Clear" /></li>
