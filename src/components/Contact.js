@@ -17,6 +17,13 @@ const Contact = (props) => (
                         <label htmlFor="message">Message</label>
                         <textarea name="message" id="message" rows="6"></textarea>
                     </div>
+                    <div className="field">
+                        <input type="file" name="myfile" id="myfile" placeholder="myfile" rows="7"/>
+                        <p>You may upload a picture of your driveway for a more precise quote.</p>
+                    </div>
+                    <div className="field">
+                       <div data-netlify-recaptcha="true"></div>
+                    </div>
                     <ul className="actions">
                         <li><input type="submit" value="Send Message" className="special" /></li>
                         <li><input type="reset" value="Clear" /></li>
