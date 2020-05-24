@@ -10,8 +10,16 @@ const Contact = (props) => (
                         <input type="text" name="name" id="name" required/>
                     </div>
                     <div className="field half">
-                        <label htmlFor="email">Email or Phone Number*</label>
+                        <label htmlFor="email">Email*</label>
                         <input type="text" name="email" id="email" required />
+                    </div>
+                    <div className="field half first">
+                        <label htmlFor="phone">Phone Number</label>
+                        <input type="text" name="phone" id="phone" />
+                    </div>
+                    <div className="field half">
+                        <label htmlFor="phone">Address</label>
+                        <input type="text" name="address" id="address" />
                     </div>
                     <div className="field">
                         <label htmlFor="message">Message*</label>
