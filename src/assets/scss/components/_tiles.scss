@@ -37,7 +37,7 @@
     min-height: 23em;
     overflow: hidden;
     position: relative;
-    width: 40%;
+    width: 60%;
 
     .image {
       display: none;
@@ -107,30 +107,30 @@
 
     &:nth-child(4n - 1),
     &:nth-child(4n - 2) {
-      width: 60%;
+      width: 40%;
     }
 
     &:nth-child(6n - 5) {
       &:before {
-        background-color: _palette(accent1);
+        background-color: #2A2F4A;
       }
     }
 
     &:nth-child(6n - 4) {
       &:before {
-        background-color: _palette(accent2);
+        background-color: #2A2F4A;
       }
     }
 
     &:nth-child(6n - 3) {
       &:before {
-        background-color: _palette(accent3);
+        background-color: #2A2F4A;
       }
     }
 
     &:nth-child(6n - 2) {
       &:before {
-        background-color: _palette(accent4);
+        background-color: #2A2F4A;
       }
     }
 
