@@ -7,7 +7,7 @@ import Layout from '../components/layout'
 const Elements = (props) => (
     <Layout>
         <Helmet>
-            <title>Elements - Forty by HTML5 UP</title>
+            <title>About Us</title>
             <meta name="description" content="Elements Page" />
         </Helmet>
 

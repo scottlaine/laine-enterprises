@@ -7,7 +7,7 @@ import Contact from '../components/Contact'
 const Generic = (props) => (
     <Layout>
         <Helmet>
-            <title>Generic - Forty by HTML5 UP</title>
+            <title>Get A Quote</title>
             <meta name="description" content="Generic Page" />
         </Helmet>
 
