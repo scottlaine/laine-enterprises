@@ -5,6 +5,12 @@ module.exports = {
     description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-27776541-1",
+      },
+
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
