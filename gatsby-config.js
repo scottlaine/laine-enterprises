@@ -10,7 +10,7 @@ module.exports = {
       options: {
         trackingId: "UA-27776541-1",
       },
-
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
