@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Forty V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
+    title: "Laine Enterprises",
+    author: "Scott Laine",
+    description: "Laine Enterprises website"
   },
   plugins: [
     {
@@ -24,6 +24,7 @@ module.exports = {
         icon: 'src/assets/images/website-icon.PNG', // This path is relative to the root of the site.
       },
     },
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-sass',
     'gatsby-plugin-offline'
   ],
